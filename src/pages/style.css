@@ -1,0 +1,123 @@
+.body {
+  background-color: #ddd;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  padding-right: 300px;
+}
+#title {
+  padding-top: 10px;
+  font-size: 40px;
+  color: rgb(68, 9, 204);
+}
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* full screen height */
+  overflow: hidden;
+}
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
+  /* Darken image so text is readable */
+}
+#logoimg {
+  padding: 0%;
+  width: 100px;
+  height: 100px;
+}
+.about-content {
+  padding-top: 30px;
+}
+
+.about1 {
+  padding: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 50px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.hero {
+  text-align: center;
+  background: #f5f5f5;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0px;
+}
+
+section {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+form input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+}
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+}
+.navbar-set {
+  display: flex;
+  align-items: end;
+  color: aqua;
+}
+.link {
+  text-decoration: none;
+}
+#serviceimg {
+  width: 48%;
+  padding: 5px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  color: rgb(122, 10, 226);
+}
+/*login*/
+.login-container {
+  background-color: #84cdda;
+  border-radius: 5px;
+}
+.card-body {
+  border-radius: 5px;
+}
+
+/*Register*/
+.register-container {
+  background-color: #84cdda;
+  border-radius: 5px;
+}
+.card-body {
+  border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "City Hospital",
+    "lat": 17.385044,
+    "lng": 78.486671,
+    "address": "Main Road, Hyderabad"
+  },
+  {
+    "id": 2,
+    "name": "MediCare Clinic",
+    "lat": 17.395044,
+    "lng": 78.481671,
+    "address": "Street 2, Hyderabad"
+  }
+]
