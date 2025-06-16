@@ -8,7 +8,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:4000/api/users/login", {
+      const res = await axios.post("/api/users/login", {
         email,
         password,
       });
@@ -28,7 +28,7 @@ function Login() {
         maxHeight: "600px",
         margin: "auto",
       }}
-      class="login-container"
+      className="login-container"
     >
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
@@ -39,7 +39,7 @@ function Login() {
             required
             value={email}
             placeholder="Your Email"
-            class="card-body"
+            className="card-body"
             onChange={(e) => setEmail(e.target.value)}
             style={{ width: "100%", padding: "8px" }}
           />
@@ -50,7 +50,7 @@ function Login() {
             type="password"
             required
             value={password}
-            class="card-body"
+            className="card-body"
             onChange={(e) => setPassword(e.target.value)}
             style={{ width: "100%", padding: "8px" }}
           />

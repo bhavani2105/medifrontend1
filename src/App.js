@@ -5,8 +5,9 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Services from "./pages/services";
 
-import Login from "./pages/login";
 import Register from "./pages/register";
+import Login from "./pages/login";
+
 import Contact from "./pages/contact";
 
 import NotFound from "./pages/notFound";
@@ -19,8 +20,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+
         <Route path="/contact" element={<Contact />} />
 
         <Route path="*" element={<NotFound />} />

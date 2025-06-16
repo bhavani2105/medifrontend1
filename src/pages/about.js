@@ -6,12 +6,12 @@ function About() {
   return (
     <div className="body">
       <h2>About MediMap</h2>
-      <div class="about-container">
-        <div class="about1">
+      <div className="about-container">
+        <div className="about1">
           <img src={about1} alt="about image" />
         </div>
 
-        <div class="about-content">
+        <div className="about-content">
           <p>
             <strong>MediMap</strong> is an innovative web application designed
             to assist people during medical emergencies by helping them quickly

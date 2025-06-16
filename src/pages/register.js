@@ -9,7 +9,7 @@ function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:4000/api/users/register", {
+      const res = await axios.post("/api/users/register", {
         name,
         email,
         password,
@@ -26,7 +26,7 @@ function Register() {
     <div className="body">
       <div
         style={{ padding: "30px", maxWidth: "500px", margin: "auto" }}
-        class="register-container"
+        className="register-container"
       >
         <h2>Register</h2>
         <form onSubmit={handleRegister}>
@@ -37,7 +37,7 @@ function Register() {
               required
               value={name}
               placeholder="Your Name"
-              class="card-body"
+              className="card-body"
               onChange={(e) => setName(e.target.value)}
               style={{ width: "100%", padding: "8px" }}
             />
@@ -49,7 +49,7 @@ function Register() {
               required
               value={email}
               placeholder="Your Email"
-              class="card-body"
+              className="card-body"
               onChange={(e) => setEmail(e.target.value)}
               style={{ width: "100%", padding: "8px" }}
             />
@@ -60,7 +60,7 @@ function Register() {
               type="password"
               required
               value={password}
-              class="card-body"
+              className="card-body"
               onChange={(e) => setPassword(e.target.value)}
               style={{ width: "100%", padding: "8px" }}
             />
